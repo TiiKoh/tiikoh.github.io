@@ -148,7 +148,7 @@ in a program.
 $ make
 ```
 
-The command `make` reads *makefile* in current directory and executes accorsingly.
+The command `make` reads *makefile* in current directory and executes accordingly.
 
 
 ## Week 6
@@ -160,7 +160,7 @@ set up because of an earlier course at the university, so luckily I had some exp
 of Git.
 
 https://xkcd.com/1597/
-<img src="assets/images/git.png" alt="Image" hspace="20" width="30%" align="left"/>
+![alt text](https://imgs.xkcd.com/comics/git.png "xkcd: GIT")
 
 I had some difficulties understanding the commands `git add` and `git commit`. To my
 understanding, `git add` adds a change in the working directory to the so-called
