@@ -159,7 +159,8 @@ week and was not able to work on the assignments. However, I already had a GitHu
 set up because of an earlier course at the university, so luckily I had some experience
 of Git.
 
-https://xkcd.com/1597/
+[https://xkcd.com/1597/](https://xkcd.com/1597/)
+
 ![alt text](https://imgs.xkcd.com/comics/git.png "xkcd: GIT")
 
 I had some difficulties understanding the commands `git add` and `git commit`. To my
