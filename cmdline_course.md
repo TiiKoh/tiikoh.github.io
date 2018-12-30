@@ -62,9 +62,8 @@ We learned about users and permissions, processes, and working with a remote ser
 ## Week 3
 
 The third week was about corpus processing. We learned about regular expressions and
-text processing commands. In our assignments, we worked with texts from [Project Gutenberg]
-(http://www.gutenberg.org/). We mainly examined frequencies: for example, how many times a
-certain word form occurs in a given text. The difference between *word*, *word-form* and
+text processing commands. In our assignments, we worked with texts from [Project Gutenberg](http://www.gutenberg.org/).
+We mainly examined frequencies: for example, how many times a certain word form occurs in a given text. The difference between *word*, *word-form* and
 *token* was important to remember. The `grep` and `egrep` commands were very useful here.
 For example, the command
 
@@ -89,12 +88,40 @@ to me. I still need a lot of practice.
 
 ## Week 4
 
-Text here.
+The fourth week's topic was scripting and Unix configuration files. Being a Windows user,
+I was not familiar with bash scripts and configuration files at all beforehand, so this
+was quite a challenging week for me. However, it was also very interesting, and customising
+my own bash prompt was something that I found genuinely enjoyable and fun. As I work on a
+Windows system, I recall having some troubles with file permissions during this week, but
+I think I managed to fix or bypass these problems somehow.
+
+An example of a `for` loop in a bash script **loop.sh**:
+
+```
+/#!/bin/sh
+for i in 1 2 3 4 5
+do
+  echo "Looping ... number $i"
+done
+```
 
 ## Week 5
 
-Text here.
+This week was about installing and running programs. I have used **pip** before, but
+everything else—like **apt** and **brew**—was new to me.
+
 
 ## Week 6
 
-Text here.
+During the sixth week we learned about GitHub: how to set up a Git Repository, how the
+branches work, what is version control, and so on. Unfortunately, I was very busy this
+week and was not able to work on the assignments. However, I already had a GitHub account
+set up because of an earlier course at the university, so luckily I had some experience
+of Git.
+
+(https://xkcd.com/1597/)
+
+
+## Week 7
+
+The last week was 
