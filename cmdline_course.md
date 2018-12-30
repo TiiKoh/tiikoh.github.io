@@ -128,8 +128,27 @@ done
 
 ## Week 5
 
-This week was about installing and running programs. I have used **pip** before, but
-everything else—like **apt** and **brew**—was new to me.
+This week was about installing and running programs. I have used **pip** before to install
+Python packages, but everything else—like **apt** and **brew**—was new to me. All in all,
+I had very little knowledge and experience of different package managers.
+
+| Tool	| Usage  |
+| ----- |:------:|
+| pip	| Python |
+| apt	| Linux	 |
+| brew	| macOS  |
+
+The `make` utility is used for building and maintaining other programs, libraries or
+other projects. Its purpose is to automatically determine what needs to be recompiled
+when a large program or project consists of several smaller pieces. We can write a
+*makefile*, which is a file that is used to describe the relationships among the files
+in a program.
+
+```
+$ make
+```
+
+The command `make` reads *makefile* in current directory and executes accorsingly.
 
 
 ## Week 6
@@ -141,7 +160,19 @@ set up because of an earlier course at the university, so luckily I had some exp
 of Git.
 
 https://xkcd.com/1597/
-<img src="assets/images/git.png" alt="Image" hspace="20" width="30%" align="right"/>
+<img src="assets/images/git.png" alt="Image" hspace="20" width="30%" align="left"/>
+
+I had some difficulties understanding the commands `git add` and `git commit`. To my
+understanding, `git add` adds a change in the working directory to the so-called
+"staging area"—however, no changes are actually recorded until `git commit` has been run.
+This was sometimes hard to remember, and the whole "saving" process felt very unintuitive
+at first. The commands can be chained as such:
+
+```
+git add program.py
+git commit
+```
+
 
 ## Week 7
 
@@ -160,5 +191,5 @@ is used to run Jekyll, which then builds a local site.
 
 I have used Git before, but not on bash. Jekyll and the Ruby installation environment
 were also completely unfamiliar to me. I had some trouble getting everything up and
-running, but after some heavy googling ( :) ) I overcame my obstacles, and the rest
+running, but after some heavy googling ( **:)** ) I overcame my obstacles, and the rest
 of the work went smoothly.
