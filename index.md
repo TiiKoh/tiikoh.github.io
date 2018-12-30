@@ -28,6 +28,10 @@ This is the final assignment for the Command-line course.
 
 [cmdline-course](https://github.com/TiiKoh/tiikoh.github.io)
 
+## CV
+
+[My CV](https://www.overleaf.com/read/qkmzvpjwcgwj)
+
 ## Misc. 
 
 [InspiroBot](https://inspirobot.me/) 
