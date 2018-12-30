@@ -3,9 +3,9 @@ layout: default
 ---
 
 The course was mainly intended as a gentle introduction to command-line tools for linguists.
-It was organised as an online course, with weekly assignments and a final project.
-The course aimed to cover the fundamentals of Unix-like command-line environments, and
-especially those that are relevant to linguists.
+It was organised as an online course, with weekly assignments and a bigger final project.
+The aim of the course was to cover the fundamentals of Unix-like command-line environments,
+and especially those that are relevant to linguists.
 
 According to the [course page](https://courses.helsinki.fi/en/kik-lg218/126710126),
 after completing the course, students should be able to:
@@ -34,7 +34,7 @@ Not only teachers offered their assistance, but also other students.
 
 The first week was basically an introduction. We started from the very beginning:
 launching the terminal, getting familiar with some basic commands, and using text
-editors to view and modify files. Commands used during the first week include
+editors to view and modify files. Commands used during the first week included
 `mkdir`, `cp` and `mv`. For example, the command
 
 ```
@@ -57,6 +57,27 @@ starting to remember now.
 
 During the second week of the course we learned about navigating the Unix file system.
 We learned about users and permissions, processes, and working with a remote server.
+This was a very interesting week in the sense that I felt like the topic should be very
+familiar to me but I still somewhat struggled with it. Perhaps it is the terminology that
+is confusing and unfamiliar: "administrator" is something that I recognise, but "superuser",
+and "root user"? Similarly, I have an CSC account, and I have worked on the Taito-shell
+environment—however, as it turns out, I do not understand much about remote servers.
+So this was a very useful week for me, and I think I learned a lot.
+
+We learned a very useful command, `chmod`, which is used to change access permissions.
+For example, the command
+
+```
+$ chmod a+r file.txt
+```
+
+allows *read* permission to everyone, and
+
+```
+$ chmod a-x file.txt
+```
+
+denies *execute* permission to everyone.
 
 
 ## Week 3
@@ -119,9 +140,25 @@ week and was not able to work on the assignments. However, I already had a GitHu
 set up because of an earlier course at the university, so luckily I had some experience
 of Git.
 
-(https://xkcd.com/1597/)
-
+https://xkcd.com/1597/
+<img src="assets/images/git.png" alt="Image" hspace="20" width="30%" align="right"/>
 
 ## Week 7
 
-The last week was 
+The remainder of the course was dedicated to the final project, which is this webpage.
+For this, we used a *static site generator* called Jekyll. As GitHub typically takes
+a while to process the changes we have made, depending on the site traffic, we can use
+Jekyll to quickly see how everything looks like while we are working. This way we do not
+need to wait for the changes to appear on our actual GitHub page every time we wish to
+see what the final result looks like. The command
+
+```
+$ bundle exec jekyll serve
+```
+
+is used to run Jekyll, which then builds a local site.
+
+I have used Git before, but not on bash. Jekyll and the Ruby installation environment
+were also completely unfamiliar to me. I had some trouble getting everything up and
+running, but after some heavy googling ( :) ) I overcame my obstacles, and the rest
+of the work went smoothly.
