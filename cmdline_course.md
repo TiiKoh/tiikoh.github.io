@@ -2,12 +2,13 @@
 layout: default
 ---
 
-The course was intended as a gentle introduction to command-line tools for linguists.
+The course was intended mainly as a gentle introduction to command-line tools for linguists.
 It was organised as an online course, with weekly assignments and a final project.
-The course aimed to cover the fundamentals of Unix-like command-line environments that are relevant to linguists.
+The course aimed to cover the fundamentals of Unix-like command-line environments, and
+especially those that are relevant to linguists.
 
 According to the [course page](https://courses.helsinki.fi/en/kik-lg218/126710126),
-after completing the course, students are able to:
+after completing the course, students should be able to:
 
 - operate in a Unix-like environment.
 - use Unix command-line on a Windows or Mac OSX computer.
@@ -32,11 +33,12 @@ Not only teachers offered their assistance, but also other students.
 
 The first week was basically an introduction. We started from the very beginning:
 launching the terminal, getting familiar with some basic commands, and using text
-editors to view and modify files. We used 'mkdir', 'cp' and 'mv' commands. For example:
+editors to view and modify files. We used `mkdir`, `cp` and `mv` commands. For example,
+the command:
 
-'''
+```
 mv myfile.txt myfiles
-'''
+```
 
 moves the file **myfile.txt** into the directory **myfiles**.
 
@@ -45,7 +47,7 @@ environment at the start of the course was virtually non-existent, having mostly
 used Windows my whole life. However, most basic commands were rather straightforward,
 and the whole command-line environment feels pretty intuitive. Some simple commands
 were a bit difficult to me - for some reason, I never seemed to remember which way
-around the source and target should go. If I type 'mv file1 file2', which is the source
+around the source and target should go. If I type `mv file1 file2`, which is the source
 and which is the target? I am slowly starting to remember now.
 
 ## Week 2
